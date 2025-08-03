@@ -1,4 +1,4 @@
-# w3ti.OpenBase.Web
+# OpenBaseNet.Web.Components.Package
 
 [![NuGet Version](https://img.shields.io/nuget/v/w3ti.OpenBase.Web.Components.svg)](https://www.nuget.org/packages/w3ti.OpenBase.Web.Components/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
