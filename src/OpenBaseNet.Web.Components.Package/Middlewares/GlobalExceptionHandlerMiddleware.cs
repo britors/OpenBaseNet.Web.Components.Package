@@ -21,7 +21,7 @@ public class GlobalExceptionHandlerMiddleware(RequestDelegate next, ILogger<Glob
             var response = new
             {
                 context.Response.StatusCode,
-                Message = "Ocorreu um erro interno inesperado. Por favor, tente novamente mais tarde.",
+                Message = "Ocorreu um erro interno inesperado. Por favor, tente novamente mais tarde."
             };
 
             var jsonResponse = JsonSerializer.Serialize(response);
