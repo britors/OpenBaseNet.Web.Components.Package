@@ -1,6 +1,18 @@
+using Microsoft.AspNetCore.Http;
+using Microsoft.Extensions.Logging;
+
 namespace OpenBaseNet.Web.Components.Package.Middlewares;
 
-public class ControllerMiddleware
+public class ControllerMiddleware(RequestDelegate next, ILogger<ControllerMiddleware> logger)
 {
-    
+    public async Task InvokeAsync(HttpContext context)
+    {
+        logger.LogInformation(
+            "Path: {Path},  Method: {Method} e QueryString: {QueryString}",
+            context.Request.Path,
+            context.Request.Method,
+            context.Request.QueryString.Value);
+
+        await next(context);
+    }
 }
