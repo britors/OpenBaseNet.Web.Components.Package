@@ -23,3 +23,9 @@ Você pode instalar o pacote diretamente do NuGet:
 ```bash
 dotnet add package w3ti.OpenBase.Web.Components
 ```
+## Configuração
+Para adicionar ao seu projeto basta adicionar no seu Program.cs as linhas
+```csharp
+app.UseMiddleware<GlobalExceptionHandlerMiddleware>();
+app.UseMiddleware<ControllerMiddleware>();
+```
