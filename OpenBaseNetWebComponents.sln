@@ -1,0 +1,24 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.2.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenBaseNet.Web.Components.Package", "OpenBaseNet.Web.Components.Package.csproj", "{1C4F6CAF-CC15-2A08-DDBB-622E1AFC375F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1C4F6CAF-CC15-2A08-DDBB-622E1AFC375F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C4F6CAF-CC15-2A08-DDBB-622E1AFC375F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C4F6CAF-CC15-2A08-DDBB-622E1AFC375F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C4F6CAF-CC15-2A08-DDBB-622E1AFC375F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A8A5D024-248A-4185-8429-F51F113C9D98}
+	EndGlobalSection
+EndGlobal
