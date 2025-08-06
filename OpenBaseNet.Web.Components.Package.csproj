@@ -1,12 +1,13 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
-
     <PropertyGroup>
         <TargetFramework>net9.0</TargetFramework>
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
         <IsPackable>true</IsPackable>
         <PackageId>w3ti.OpenBase.Web.Components</PackageId>
-        <Version>1.0.9</Version>
+        <PackageReadmeFile>README.md</PackageReadmeFile>
+        <PackageIcon>icon.png</PackageIcon>
+        <Version>1.0.12</Version>
         <Authors>w3ti</Authors>
         <Description>Pacote com middlewares e helpers para aplicações web ASP.NET Core.</Description>
         <PackageTags>aspnetcore;web;middleware;utilities</PackageTags>
