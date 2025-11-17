@@ -1,13 +1,13 @@
 <Project Sdk="Microsoft.NET.Sdk">
     <PropertyGroup>
-        <TargetFramework>net9.0</TargetFramework>
+        <TargetFramework>net10.0</TargetFramework>
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
         <IsPackable>true</IsPackable>
         <PackageId>w3ti.OpenBase.Web.Components</PackageId>
         <PackageReadmeFile>README.md</PackageReadmeFile>
         <PackageIcon>icon.png</PackageIcon>
-        <Version>9.0.3</Version>
+        <Version>10.0.0</Version>
         <Authors>w3ti</Authors>
         <Description>Pacote com middlewares e helpers para aplicações web ASP.NET Core.</Description>
         <PackageTags>aspnetcore;web;middleware;utilities</PackageTags>
@@ -17,7 +17,7 @@
 
     <ItemGroup>
         <PackageReference Include="Microsoft.AspNetCore.Http.Abstractions" Version="2.3.0" />
-        <PackageReference Include="Microsoft.Extensions.Hosting.Abstractions" Version="9.0.10" />
+        <PackageReference Include="Microsoft.Extensions.Hosting.Abstractions" Version="10.0.0" />
     </ItemGroup>
 
     <ItemGroup>
